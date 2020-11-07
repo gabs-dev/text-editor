@@ -16,7 +16,7 @@ editada.<br/>
 “\”: cancela todos os caracteres anteriores na linha
 sendo editada.<br/><br/>
 
-“*”: salta a linha. Ex: DCCTIM*CEFET*<br/>
+“\*”: salta a linha. Ex: DCCTIM\*CEFET*<br/>
 DCCTIM<br/>
 CEFET<br/><br/>
 
