@@ -137,7 +137,7 @@ public class MainView {
                     fileName += ".txt";
                     try (BufferedWriter bw = new BufferedWriter(new FileWriter(path + fileName))) {
                         bw.write(text.reverseStack().toString());
-                        System.out.println("Aquivo salvo com sucesso em:\n" + path + fileName);
+                        System.out.println("Arquivo salvo com sucesso em:\n" + path + fileName);
                     } catch (IOException e) {
                         System.err.println("Falha ao slavar o arquivo.\n" + e.getMessage());
                     }
